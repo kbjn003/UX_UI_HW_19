@@ -1,0 +1,198 @@
+/* CSS Reset */
+
+* {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    box-sizing: content-box;
+}
+
+header, nav, main, section, article, footer 
+li {
+        display: block; 
+      
+   }
+   
+   ul {
+       text-align: left;
+   }
+  
+/* Global Rules/Styles */
+body {
+    text-align:center;
+    /* just above you aligned your navbar text */
+    color:#4d4b4b;
+    font-family: "Roboto", sans-serif;
+    image-orientation: center;
+    
+}
+
+    
+/* Header Styles */
+header {
+    font-family: "Roboto", sans-serif;
+    align-items: self-position;
+    background-color: #d0eff2;
+    background-image: url(Images/Group21.png)  alt="graphleft" align="left";
+    background-image: url(Images/Group20.png) alt="graphright" align="right";
+    color: #D94E4E;
+    font-size: 1rem;
+    padding: 4rem;
+    
+}
+li{
+    
+    display: display-internal;
+}
+
+header h1 { 
+    font-weight: 100;
+    font-size: 3rem;
+    margin: 3rem;
+
+}
+
+header h2{
+    font-weight: 100;
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+h4
+{
+    font-size: 2em;
+}
+header h4{
+    margin: 3rem;
+  
+}
+p{
+    margin: 4rem;
+    width: 40%;
+}
+
+/* Navigation Styles*/
+nav{
+    background-color: #D0EFF2;
+    border-bottom: 4px solid #A3D9D9;
+}
+
+.nav-bar {
+    /* place menu properly */
+    display: flex;
+   /* to remove bullets */
+    list-style: none; 
+    /* spacing on th nav bar (around or evenly) */
+    justify-content: left;
+
+    /* location of the menu */
+    text-align: left;
+}
+.nav-item {
+    margin: 0 1rem;
+    float: left;
+    flex: flex-basis;
+}
+
+/* Main Styles */
+main{
+    padding:0rem;
+    margin: 4rem;
+}
+
+
+
+/* to change blue underlined menu  */
+.link-item {
+    width: 100%;
+    color:#4d4b4b;
+    text-decoration:none;
+    font-size:1.5rem;
+        /* to force the element to act like a box see below*/
+    display: block;
+
+    /* transition is used for the hoover (remember pseudo classes and transition is always added before */
+    /* transition: background-color 500ms ease-in-out; */
+}
+/* focus below is for accessibility */
+/* .link-item:hover,
+.link-item:focus {
+    background-color:#A3D9D9;
+} */
+
+/* main */
+.main-section
+{   width: "300px";
+    height: "220px"; 
+    padding: 4rem;
+    margin: 4rem;
+    border-radius: 1rem;
+}
+
+.herotxt{ 
+    margin:4rem
+}
+
+#scrolldownarrow{
+    margin: 2rem;
+}
+
+
+
+/* CanadaPost */
+.canadaPost-section{
+
+    position: absolute;
+    display: flex;
+    justify-content: right;
+    width: "400px" ;
+    height: "320px" ;
+    align-items: center;
+    padding: 4rem;
+    margin: 4rem;
+    border-radius: 4rem;
+}
+
+li {
+    display:block;
+}
+
+.grid-container {
+    display: grid;
+    grid-row-gap: 50px;
+}
+
+p
+{
+    margin: auto;
+    font-size: 1.5em;
+}
+/* Footer Styles */
+
+footer {
+    background-color: #a3d9d9;
+    padding: 8rem;
+    font-size: 1rem;
+    align-items: baseline-position;
+}
+
+h2, p
+{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+h2
+{
+    font-size: 2em;
+}
+
+footer p
+{
+    font-size: 1em;
+}
+
+button
+{
+    padding: 0.5em;
+}
